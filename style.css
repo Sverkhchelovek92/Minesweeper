@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 216px;
+  margin: 7px 0 0 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+.title {
+  margin-bottom: 2px;
+}
+
+.display_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.field_square {
+  height: 27px;
+  width: 27px;
+  /* background-color: #fcf3cf; */
+  color: white;
+  border: 1px solid black;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  max-width: 216px;
+  background-color: lightcoral;
+}
+
+button {
+  cursor: pointer;
+}
+
+.field_square:hover {
+  opacity: 0.6;
+}
+
+/* .bomb {
+  background-color: #f08080;
+} */
+
+.bomb {
+  background-color: #17202a;
+}
+
+.empty {
+  background-color: #17202a;
+}
+
+.bomb_exploaded {
+  background-color: red;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.gameover-state {
+  margin: 2px 0 2px 0;
+}
+
+.again-btn {
+  height: 30px;
+  width: 99px;
+}
+
+.revealed-empty {
+  background-color: #32465b;
+  color: white;
+  pointer-events: none;
+}
+
+.revealed-num {
+  background-color: #243547;
+  color: white;
+  pointer-events: none;
+}
+
+.one {
+  color: yellow;
+}
+
+.two {
+  color: #a1c935;
+}
+
+.three {
+  color: #f08080;
+}
+
+.four {
+  color: #add8e6;
+}
+
+.five {
+  color: orangered;
+}
